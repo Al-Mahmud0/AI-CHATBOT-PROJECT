@@ -1,0 +1,23 @@
+# AI Chatbot with DeepSeek Integration
+
+![Project Screenshot](/docs/screenshots/demo.png)
+
+A full-featured chatbot built with Flask and DeepSeek API, featuring real-time interactions and elegant UI.
+
+## Features ✨
+- Real-time messaging
+- Typing indicators
+- Error handling
+- Responsive design
+
+## Tech Stack 💻
+| Frontend | Backend | AI |
+|----------|---------|----|
+| HTML5    | Python  | DeepSeek API |
+| CSS3     | Flask   | NLP |
+| JavaScript | REST API | 
+
+## Setup Guide 🛠️
+1. Clone repo
+```bash
+git clone https://github.com/yourusername/ai-chatbot.git
