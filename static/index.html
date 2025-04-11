@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek Chat</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <div class="logo-container">
+                <svg class="logo" viewBox="0 0 24 24">
+                    <path fill="#6c63ff" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                    <path fill="#6c63ff" d="M16 9h-4v6h4V9zm-6 0H6v6h4V9z"/>
+                </svg>
+                <h1>DeepSeek AI</h1>
+            </div>
+            <div class="model-info">deepseek-chat</div>
+        </header>
+
+        <div class="chat-messages" id="chat-messages">
+            <div class="message ai-message">
+                <div class="message-content">
+                    Hello! I'm your DeepSeek AI assistant. How can I help you today?
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <textarea id="user-input" placeholder="Type your message..." rows="1"></textarea>
+            <button id="send-button">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="white" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
